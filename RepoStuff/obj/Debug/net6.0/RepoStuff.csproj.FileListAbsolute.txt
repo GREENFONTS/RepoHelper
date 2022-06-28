@@ -1,0 +1,15 @@
+C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\bin\Debug\net6.0\RepoStuff.exe
+C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\bin\Debug\net6.0\RepoStuff.deps.json
+C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\bin\Debug\net6.0\RepoStuff.runtimeconfig.json
+C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\bin\Debug\net6.0\RepoStuff.dll
+C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\bin\Debug\net6.0\RepoStuff.pdb
+C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\obj\Debug\net6.0\RepoStuff.csproj.AssemblyReference.cache
+C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\obj\Debug\net6.0\RepoStuff.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\obj\Debug\net6.0\RepoStuff.AssemblyInfoInputs.cache
+C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\obj\Debug\net6.0\RepoStuff.AssemblyInfo.cs
+C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\obj\Debug\net6.0\RepoStuff.csproj.CoreCompileInputs.cache
+C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\obj\Debug\net6.0\RepoStuff.dll
+C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\obj\Debug\net6.0\refint\RepoStuff.dll
+C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\obj\Debug\net6.0\RepoStuff.pdb
+C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\obj\Debug\net6.0\RepoStuff.genruntimeconfig.cache
+C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\obj\Debug\net6.0\ref\RepoStuff.dll
