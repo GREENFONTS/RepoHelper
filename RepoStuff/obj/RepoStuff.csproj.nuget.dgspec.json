@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Users\\Godwill Onyewuchi\\source\\repos\\RepoStuff\\RepoStuff\\RepoStuff.csproj": {
-      "version": "1.0.0",
+      "version": "1.1.1",
       "restore": {
         "projectUniqueName": "C:\\Users\\Godwill Onyewuchi\\source\\repos\\RepoStuff\\RepoStuff\\RepoStuff.csproj",
         "projectName": "Repo-Cli",
@@ -13,11 +13,13 @@
         "packagesPath": "C:\\Users\\Godwill Onyewuchi\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Godwill Onyewuchi\\source\\repos\\RepoStuff\\RepoStuff\\obj\\",
         "projectStyle": "PackageReference",
+        "crossTargeting": true,
         "configFilePaths": [
           "C:\\Users\\Godwill Onyewuchi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
+          "net5.0",
           "net6.0"
         ],
         "sources": {
@@ -25,6 +27,10 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          },
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {}
@@ -37,12 +43,61 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.Win32.Registry": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "NuGet.CommandLine": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.1, )"
+            },
+            "Octokit": {
+              "target": "Package",
+              "version": "[0.51.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        },
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Win32.Registry": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "NuGet.CommandLine": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.1, )"
             },
             "Octokit": {
               "target": "Package",

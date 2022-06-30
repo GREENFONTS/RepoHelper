@@ -14,7 +14,14 @@
     <repository url="https://github.com/GREENFONTS/RepoHelper" />
   </metadata>
   <files>
+    <file src="C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\obj\DotnetToolSettings.xml" target="tools\net5.0\any\DotnetToolSettings.xml" />
     <file src="C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\obj\DotnetToolSettings.xml" target="tools\net6.0\any\DotnetToolSettings.xml" />
+    <file src="C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\bin\Debug\net5.0\publish\Repo-Cli.dll" target="tools\net5.0\any\Repo-Cli.dll" />
+    <file src="C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\bin\Debug\net5.0\publish\Repo-Cli.deps.json" target="tools\net5.0\any\Repo-Cli.deps.json" />
+    <file src="C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\bin\Debug\net5.0\publish\Repo-Cli.runtimeconfig.json" target="tools\net5.0\any\Repo-Cli.runtimeconfig.json" />
+    <file src="C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\bin\Debug\net5.0\publish\Repo-Cli.pdb" target="tools\net5.0\any\Repo-Cli.pdb" />
+    <file src="C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\bin\Debug\net5.0\publish\Newtonsoft.Json.dll" target="tools\net5.0\any\Newtonsoft.Json.dll" />
+    <file src="C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\bin\Debug\net5.0\publish\Octokit.dll" target="tools\net5.0\any\Octokit.dll" />
     <file src="C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\bin\Debug\net6.0\publish\Repo-Cli.dll" target="tools\net6.0\any\Repo-Cli.dll" />
     <file src="C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\bin\Debug\net6.0\publish\Repo-Cli.deps.json" target="tools\net6.0\any\Repo-Cli.deps.json" />
     <file src="C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\bin\Debug\net6.0\publish\Repo-Cli.runtimeconfig.json" target="tools\net6.0\any\Repo-Cli.runtimeconfig.json" />

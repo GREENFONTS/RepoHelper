@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
+using System.Net.Http;
 
 namespace RepoStuff.GitDeviceFlow
 {
@@ -61,11 +62,13 @@ namespace RepoStuff.GitDeviceFlow
         {
 
             _client.DefaultRequestHeaders.Add("Accept", "application/json");
+#pragma warning disable CS8620 // Argument cannot be used for parameter due to differences in the nullability of reference types.
             var formBody = new FormUrlEncodedContent(new[]
             {
                 new KeyValuePair<string, string>("client_id", clientId),
                 new KeyValuePair<string, string>("scope", scope)
             });
+#pragma warning restore CS8620 // Argument cannot be used for parameter due to differences in the nullability of reference types.
             var url = new Uri("https://github.com/login/device/code");
             var res = await _client.PostAsync(url, formBody);
             if (res.IsSuccessStatusCode)
@@ -113,7 +116,9 @@ namespace RepoStuff.GitDeviceFlow
         //Function to request access token
         public async static Task<IDictionary<string, object>> RequestAccessToken(KeyValuePair<string, string>[] Params)
         {
+#pragma warning disable CS8620 // Argument cannot be used for parameter due to differences in the nullability of reference types.
             var formBody = new FormUrlEncodedContent(Params);
+#pragma warning restore CS8620 // Argument cannot be used for parameter due to differences in the nullability of reference types.
             _client.DefaultRequestHeaders.Add("Accept", "application/json");
 
             var url = new Uri("https://github.com/login/oauth/access_token");

@@ -12,4 +12,10 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="C:\Users\Godwill Onyewuchi\.nuget\packages\" />
   </ItemGroup>
+  <PropertyGroup Condition=" '$(TargetFramework)' == 'net5.0' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgNuGet_CommandLine Condition=" '$(PkgNuGet_CommandLine)' == '' ">C:\Users\Godwill Onyewuchi\.nuget\packages\nuget.commandline\6.2.1</PkgNuGet_CommandLine>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(TargetFramework)' == 'net6.0' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgNuGet_CommandLine Condition=" '$(PkgNuGet_CommandLine)' == '' ">C:\Users\Godwill Onyewuchi\.nuget\packages\nuget.commandline\6.2.1</PkgNuGet_CommandLine>
+  </PropertyGroup>
 </Project>

@@ -54,7 +54,6 @@ namespace RepoStuff.Actions
         //TO GET CLONE URL
         public async void RepoCloneUrl(string repoName)
         {
-            Console.WriteLine("enetred");
             var res = await actionService.getRepositoryCloneUrl(repoName);
             Console.WriteLine(res);
         }

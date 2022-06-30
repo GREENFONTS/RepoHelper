@@ -14,7 +14,7 @@ The tool is published via .Net Package Installer - Nuget
 
 To install the tool globally, Dotnet CLI will be used:
 ```
-dotnet tool install --global Repo-Cli --version 1.0.0
+dotnet tool install --global Repo-Cli --version 1.1.1
 ```
 To run the tool on any terminal: ```repocli```
 
@@ -22,3 +22,6 @@ To run the tool on any terminal: ```repocli```
 - [Octokit.net](https://github.com/octokit/octokit.net)
 - [Github oauth Device Flow](https://docs.github.com/en/developers/apps/building-oauth-apps/authorizing-oauth-apps#device-flow)
 - .Net Console App
+
+### Note
+This CLI tool works on only windows OS and must have .NET installed already in the PC.
