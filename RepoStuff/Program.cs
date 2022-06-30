@@ -17,7 +17,7 @@ namespace RepoStuff
         public static async Task Main(string[] args)
         {
 
-            string clientId = "7884a1308e3c1e372d71";
+            string clientId = "your client Id";
             string scope = "repo delete_repo";
             string token = "";
 

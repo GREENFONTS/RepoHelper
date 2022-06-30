@@ -1,6 +1,6 @@
 # RepoHelper
 
-A CLI tool that utilizes Github Ouath flow and Octokit Pakage to allow users person some Github actions such as creating, deleting repos, creating issues and viewing the list of repos owned by the user.
+A CLI tool that utilizes Github Ouath flow and Octokit Pakage to allow users to perform some Github actions such as creating, deleting repos, creating issues and viewing the list of repos owned by the user.
 
 The commands available in the tool:
 -    getRepos                     --      lists all the public repos of the user
