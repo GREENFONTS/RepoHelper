@@ -1,0 +1,7 @@
+C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\bin\Debug\net6.0\publish\Repo-Cli.exe
+C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\bin\Debug\net6.0\publish\Repo-Cli.dll
+C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\bin\Debug\net6.0\publish\Repo-Cli.deps.json
+C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\bin\Debug\net6.0\publish\Repo-Cli.runtimeconfig.json
+C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\bin\Debug\net6.0\publish\Repo-Cli.pdb
+C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\bin\Debug\net6.0\publish\Newtonsoft.Json.dll
+C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\bin\Debug\net6.0\publish\Octokit.dll

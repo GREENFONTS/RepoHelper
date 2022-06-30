@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "qVyiDhkIMUe+9YBUFACPvztXL+Icv0KwvhN01OfYGRoKXwMnbIAohGcYsmtGUnn8jLmhjIh4EtapYp/1uV2EiQ==",
+  "dgSpecHash": "K5L5iGbD2yGiyUJAZLtQlxX7f/mqbVAKv01PHSGPA6YP1zp4oaXED4vDSQp1WVVaUQqGbj7KYKK5rUXCZ0VHTA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Godwill Onyewuchi\\source\\repos\\RepoStuff\\RepoStuff\\RepoStuff.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Godwill Onyewuchi\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Godwill Onyewuchi\\.nuget\\packages\\octokit\\0.51.0\\octokit.0.51.0.nupkg.sha512"
+  ],
   "logs": []
 }

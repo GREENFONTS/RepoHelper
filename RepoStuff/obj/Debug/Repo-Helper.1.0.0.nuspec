@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Repo-Helper</id>
+    <version>1.0.0</version>
+    <authors>Repo-Helper</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <description>A CLI tool that utilizes Github Ouath flow and Octokit Pakage to allow users person some Github actions such as creating, deleting repos, creating issues and viewing the list of repos owned by the user.</description>
+    <tags>Github Octokit Ouath Apis Repos C# .NET</tags>
+    <repository url="https://github.com/GREENFONTS/RepoHelper" />
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="Newtonsoft.Json" version="13.0.1" exclude="Build,Analyzers" />
+        <dependency id="Octokit" version="0.51.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\bin\Debug\net6.0-windows\Repo-Helper.runtimeconfig.json" target="lib\net6.0-windows7.0\Repo-Helper.runtimeconfig.json" />
+    <file src="C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\bin\Debug\net6.0-windows\Repo-Helper.dll" target="lib\net6.0-windows7.0\Repo-Helper.dll" />
+  </files>
+</package>

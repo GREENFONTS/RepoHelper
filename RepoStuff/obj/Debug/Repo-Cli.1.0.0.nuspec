@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Repo-Cli</id>
+    <version>1.0.0</version>
+    <authors>Repo-Cli</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <description>A CLI tool that utilizes Github Ouath flow and Octokit Pakage to allow users person some Github actions such as creating, deleting repos, creating issues and viewing the list of repos owned by the user.</description>
+    <tags>Github Octokit Ouath Apis Repos C# .NET</tags>
+    <packageTypes>
+      <packageType name="DotnetTool" />
+    </packageTypes>
+    <repository url="https://github.com/GREENFONTS/RepoHelper" />
+  </metadata>
+  <files>
+    <file src="C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\obj\DotnetToolSettings.xml" target="tools\net6.0\any\DotnetToolSettings.xml" />
+    <file src="C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\bin\Debug\net6.0\publish\Repo-Cli.dll" target="tools\net6.0\any\Repo-Cli.dll" />
+    <file src="C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\bin\Debug\net6.0\publish\Repo-Cli.deps.json" target="tools\net6.0\any\Repo-Cli.deps.json" />
+    <file src="C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\bin\Debug\net6.0\publish\Repo-Cli.runtimeconfig.json" target="tools\net6.0\any\Repo-Cli.runtimeconfig.json" />
+    <file src="C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\bin\Debug\net6.0\publish\Repo-Cli.pdb" target="tools\net6.0\any\Repo-Cli.pdb" />
+    <file src="C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\bin\Debug\net6.0\publish\Newtonsoft.Json.dll" target="tools\net6.0\any\Newtonsoft.Json.dll" />
+    <file src="C:\Users\Godwill Onyewuchi\source\repos\RepoStuff\RepoStuff\bin\Debug\net6.0\publish\Octokit.dll" target="tools\net6.0\any\Octokit.dll" />
+  </files>
+</package>
