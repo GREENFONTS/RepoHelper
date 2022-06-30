@@ -13,10 +13,10 @@ The commands available in the tool:
 The tool is published via .Net Package Installer - Nuget
 
 To install the tool globally, Dotnet CLI will be used:
-
-dotnet tool install --global Repo-Helper --version 1.0.0
-
-To run the tool on any terminal: Repo-Helper
+```
+dotnet tool install --global Repo-Cli --version 1.0.0
+```
+To run the tool on any terminal: ```repocli```
 
 ### Technologies Used
 - [Octokit.net](https://github.com/octokit/octokit.net)
